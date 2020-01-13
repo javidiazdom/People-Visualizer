@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23d264cf-14fa-4237-a886-fd288edd3215" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MongoDBTest" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MongoDBTest" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MongoDBTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MongoDBTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MongoDBTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UX9feeLtLGbArqiQb9WUuhbaC1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.13679892" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Model" />
+      <recent name="Data.DbFetcher.MongoDB" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MongoDBTest [run]">
+    <configuration name="MongoDBTest [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MongoDBTest [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MongoDBTest [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MongoDBTest [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MongoDBTest [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MongoDBTest [run]" />
+        <item itemvalue="Gradle.MongoDBTest [compileJava]" />
+        <item itemvalue="Gradle.MongoDBTest [assemble]" />
+        <item itemvalue="Gradle.MongoDBTest [clean]" />
+        <item itemvalue="Gradle.MongoDBTest [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23d264cf-14fa-4237-a886-fd288edd3215" name="Default Changelist" comment="" />
+      <created>1575492177579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575492177579</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="181" width="833" height="674" key="#Project_Structure" timestamp="1576541579802">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="555" y="181" width="833" height="674" key="#Project_Structure/0.0.1920.1039@0.0.1920.1039" timestamp="1576541579802" />
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575493597469">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1039@0.0.1920.1039" timestamp="1575493597469" />
+    <state x="621" y="312" width="668" height="412" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576541781476">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="621" y="312" width="668" height="412" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1039@0.0.1920.1039" timestamp="1576541781476" />
+    <state x="768" y="219" width="374" height="597" key="#com.intellij.ide.util.MemberChooser" timestamp="1576676416338">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="768" y="219" width="374" height="597" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1039@0.0.1920.1039" timestamp="1576676416338" />
+    <state x="676" y="169" width="552" height="694" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576541583640">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="676" y="169" width="552" height="694" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1039@0.0.1920.1039" timestamp="1576541583640" />
+    <state x="1503" y="672" width="823" height="697" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577364271179">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state x="1503" y="672" width="823" height="697" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1577364271179" />
+    <state x="716" y="362" width="487" height="315" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576610125198">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="716" y="362" width="487" height="315" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1039@0.0.1920.1039" timestamp="1576610125198" />
+    <state x="716" y="391" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576610094454">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="716" y="391" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1039@0.0.1920.1039" timestamp="1576610094454" />
+    <state x="1391" y="508" width="1048" height="1025" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578325698449">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state x="1391" y="508" width="1048" height="1025" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578325698449" />
+    <state x="743" y="277" width="424" height="481" key="FileChooserDialogImpl" timestamp="1575493596320">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="743" y="277" width="424" height="481" key="FileChooserDialogImpl/0.0.1920.1039@0.0.1920.1039" timestamp="1575493596320" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1578934969924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1039@0.0.1920.1039" timestamp="1576679105022" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934969924" />
+    <state width="3756" height="388" key="GridCell.Tab.0.bottom/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578918199303" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1578934969924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.center/0.0.1920.1039@0.0.1920.1039" timestamp="1576679105022" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934969924" />
+    <state width="3756" height="388" key="GridCell.Tab.0.center/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578918199302" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1578934969924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.left/0.0.1920.1039@0.0.1920.1039" timestamp="1576679105022" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934969924" />
+    <state width="3756" height="388" key="GridCell.Tab.0.left/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578918199302" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1578934969924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.right/0.0.1920.1039@0.0.1920.1039" timestamp="1576679105022" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934969924" />
+    <state width="3756" height="388" key="GridCell.Tab.0.right/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578918199302" />
+    <state width="3756" height="661" key="GridCell.Tab.1.bottom" timestamp="1578788477368">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state width="3756" height="661" key="GridCell.Tab.1.bottom/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578788477368" />
+    <state width="3756" height="661" key="GridCell.Tab.1.center" timestamp="1578788477367">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state width="3756" height="661" key="GridCell.Tab.1.center/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578788477367" />
+    <state width="3756" height="661" key="GridCell.Tab.1.left" timestamp="1578788477367">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state width="3756" height="661" key="GridCell.Tab.1.left/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578788477367" />
+    <state width="3756" height="661" key="GridCell.Tab.1.right" timestamp="1578788477367">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state width="3756" height="661" key="GridCell.Tab.1.right/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578788477367" />
+    <state x="377" y="46" width="1141" height="883" key="SettingsEditor" timestamp="1578934777006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="449" y="154" key="SettingsEditor/0.0.1920.1039@0.0.1920.1039" timestamp="1576541714857" />
+    <state x="377" y="46" width="1141" height="883" key="SettingsEditor/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934777006" />
+    <state x="898" y="278" width="2023" height="1484" key="SettingsEditor/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578781785381" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1578934760553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934760553" />
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578934612901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3840.-447.2194.1194@0.0.1920.1040" timestamp="1578934612901" />
+    <state x="4407" y="-30" width="3238" height="1405" maximized="true" key="dock-window-1" timestamp="1577365759469">
+      <screen x="3840" y="0" width="3840" height="2160" />
+    </state>
+    <state x="4407" y="-30" width="3238" height="1405" maximized="true" key="dock-window-1/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1577365759469" />
+    <state x="574" y="142" width="1335" height="864" key="new project wizard" timestamp="1577364758387">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state x="287" y="86" width="1335" height="864" key="new project wizard/0.0.1920.1039@0.0.1920.1039" timestamp="1576541256368" />
+    <state x="574" y="142" key="new project wizard/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1577364758387" />
+    <state x="609" y="240" width="700" height="530" key="recent.locations.popup" timestamp="1576674386097">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="609" y="240" width="700" height="530" key="recent.locations.popup/0.0.1920.1039@0.0.1920.1039" timestamp="1576674386097" />
+    <state x="1248" y="460" key="run.anything.popup" timestamp="1578782405642">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state x="1248" y="460" key="run.anything.popup/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1578782405642" />
+    <state x="1246" y="456" key="search.everywhere.popup" timestamp="1577365416479">
+      <screen x="0" y="0" width="3840" height="2078" />
+    </state>
+    <state x="623" y="228" key="search.everywhere.popup/0.0.1920.1039@0.0.1920.1039" timestamp="1576541642958" />
+    <state x="1246" y="456" key="search.everywhere.popup/0.0.3840.2078/3840.0.3840.2160@0.0.3840.2078" timestamp="1577365416479" />
+  </component>
+</project>
