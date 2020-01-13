@@ -15,6 +15,7 @@ import java.util.Map;
 public class GUIMain extends JFrame {
     private Map<String, JComponent> componentMap = new HashMap<>();
     private PeopleAppController controller;
+    private NewPersonDialog dialogFrame;
     public GUIMain () {
         setLayout(new BorderLayout(20,20));
         JPanel panel = new JPanel();
@@ -26,11 +27,15 @@ public class GUIMain extends JFrame {
         searchLabel.setFont(new Font(searchLabel.getFont().getName(), Font.PLAIN, 30));
         JTextField field = new JTextField();
         JButton addPerson = new JButton("Añadir");
+        addPerson.addActionListener(actionEvent -> {
+            dialogFrame.setVisible(true);
+        });
         field.setFont(new Font(field.getFont().getName(), Font.PLAIN, 30));
         field.setPreferredSize(new Dimension(500,50));
         topBar.add(searchLabel);
         topBar.add(field);
         topBar.add(addPerson);
+        dialogFrame = new NewPersonDialog();
         componentMap.put("TextField",field);
         componentMap.put("People", panel);
         componentMap.put("TopBar", topBar);
@@ -59,21 +64,20 @@ public class GUIMain extends JFrame {
         ((JTextField)getComponent("TextField")).getDocument().addDocumentListener(documentListener);
     }
 
-    public void addButtonListener(ActionListener actionListener) {
-        ((JButton)((JPanel)getComponent("TopBar")).getComponent(2)).addActionListener(actionListener);
+    public void addDialogButtonListener(ActionListener actionListener) {
+        ((JButton)dialogFrame.getComponent(5)).addActionListener(actionListener);
     }
 
     public void update () {
         this.componentMap.get("People").validate();
     }
 
-    public String[] openNewPersonDialog () {
-         JFrame newPersonDialog = new NewPersonDialog();
-        return null;
-    }
-
     public JComponent getComponent (String name) {
         return componentMap.get(name);
+    }
+
+    public NewPersonDialog getNewPersonDialog () {
+        return dialogFrame;
     }
 
 }

@@ -8,7 +8,7 @@ public class MongoDbConnection {
     private static MongoClient client;
 
     private MongoDbConnection () {
-        client = MongoClients.create("mongodb://10.0.75.1:27017");
+        client = MongoClients.create("mongodb://172.17.0.1:27017");
     }
 
     public static MongoDbConnection getConnection () {

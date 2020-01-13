@@ -21,11 +21,8 @@ public class PeopleAppController {
     public void start () {
         gui.start();
         gui.addSearchListener(new MyDocumentListener(this));
-        gui.addButtonListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                Person newPerson = addPersonDialog();
-            }
+        gui.addDialogButtonListener(actionEvent -> {
+            this.addPerson(gui.getNewPersonDialog().getPersonData());
         });
         gui.setPeople(db.getWorker().getPeople());
     }
@@ -34,9 +31,7 @@ public class PeopleAppController {
         gui.setPeople(db.getWorker().getPeopleByName(patternSearch));
         gui.update();
     }
-
-    public Person addPersonDialog () {
-        String[] personData = gui.openNewPersonDialog();
-        return null;
+    private void addPerson (String[] personData) {
+        db.getWorker().savePerson(new Person(personData[0], personData[1], Integer.parseInt(personData[2])));
     }
 }

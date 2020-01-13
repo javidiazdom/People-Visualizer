@@ -6,12 +6,12 @@ public class NewPersonDialog extends JFrame {
     public NewPersonDialog () {
         this.setLayout(new GridLayout(4,1));
         this.add(new JLabel("Nombre"));
-        this.add(new JTextField("Name"));
+        this.add(new JTextField());
         this.add(new JLabel("Apellidos"));
-        this.add(new JTextField("Lastname"));
+        this.add(new JTextField());
         this.add(new JLabel("Edad"));
-        this.add(new JTextField("Age"));
-        JButton button = new JButton();
+        this.add(new JTextField());
+        JButton button = new JButton("Ok");
         this.add(button);
         pack();
         setVisible(true);
