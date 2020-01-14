@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class NewPersonDialog extends JFrame {
     public NewPersonDialog () {
+        this.setPreferredSize(new Dimension(400,200));
         this.setLayout(new GridLayout(4,1));
         this.add(new JLabel("Nombre"));
         this.add(new JTextField());

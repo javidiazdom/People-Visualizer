@@ -14,19 +14,20 @@ import java.util.Map;
 
 public class GUIMain extends JFrame {
     private Map<String, JComponent> componentMap = new HashMap<>();
-    private PeopleAppController controller;
     private NewPersonDialog dialogFrame;
     public GUIMain () {
         setLayout(new BorderLayout(20,20));
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel,BoxLayout.PAGE_AXIS));
         panel.setSize(700,800);
+        JScrollPane scrollPane = new JScrollPane(panel);
         JPanel topBar = new JPanel();
         topBar.setLayout(new BoxLayout(topBar,BoxLayout.LINE_AXIS));
         JLabel searchLabel = new JLabel("Nombre");
         searchLabel.setFont(new Font(searchLabel.getFont().getName(), Font.PLAIN, 30));
         JTextField field = new JTextField();
-        JButton addPerson = new JButton("Añadir");
+        JButton addPerson = new JButton("Nueva");
+        addPerson.setMinimumSize(new Dimension(100,100));
         addPerson.addActionListener(actionEvent -> {
             dialogFrame.setVisible(true);
         });
@@ -38,6 +39,7 @@ public class GUIMain extends JFrame {
         dialogFrame = new NewPersonDialog();
         componentMap.put("TextField",field);
         componentMap.put("People", panel);
+        componentMap.put("PeopleScrollable", scrollPane);
         componentMap.put("TopBar", topBar);
         componentMap.put("SearchBox", field);
     }
@@ -46,7 +48,7 @@ public class GUIMain extends JFrame {
         setResizable(false);
         setSize(1000,1000);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        add(componentMap.get("People"),BorderLayout.CENTER);
+        add(componentMap.get("PeopleScrollable"),BorderLayout.CENTER);
         add(componentMap.get("TopBar"),BorderLayout.PAGE_START);
         setVisible(true);
     }
@@ -55,6 +57,7 @@ public class GUIMain extends JFrame {
         this.componentMap.get("People").removeAll();
         for (Person person : people) {
             this.componentMap.get("People").add(person.getName(), new PersonDisplay(person));
+            this.componentMap.get("People").add(Box.createRigidArea(new Dimension(0,10)));
         }
         this.componentMap.get("People").revalidate();
         this.componentMap.get("People").repaint();

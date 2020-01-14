@@ -10,7 +10,9 @@ public class PersonDisplay extends JComponent {
     public PersonDisplay(Person person) {
         super();
         this.person = person;
-        setMaximumSize(new Dimension(1800,100));
+        setMinimumSize(new Dimension(900,100));
+        setMaximumSize(new Dimension(900,100));
+        setPreferredSize(new Dimension(900,100));
         JLabel name = new JLabel(  person.getName() + " " + person.getSurname());
         JLabel age = new JLabel("Edad: " + person.getAge());
         name.setBounds(10, 0, 1500,90);
