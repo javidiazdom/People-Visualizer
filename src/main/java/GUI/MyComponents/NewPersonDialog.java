@@ -1,6 +1,7 @@
 package GUI.MyComponents;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class NewPersonDialog extends JFrame {
     public NewPersonDialog () {
@@ -19,10 +20,14 @@ public class NewPersonDialog extends JFrame {
     }
 
     public String [] getPersonData() {
+        Container c = this.getContentPane();
         return new String [] {
-                ((JTextField)this.getComponent(1)).getText(),
-                ((JTextField)this.getComponent(3)).getText(),
-                ((JTextField)this.getComponent(5)).getText()
+                ((JTextField)c.getComponent(1)).getText(),
+                ((JTextField)c.getComponent(3)).getText(),
+                ((JTextField)c.getComponent(5)).getText()
         };
+    }
+    public void setButtonActionListener(ActionListener listener) {
+        ((JButton)this.getContentPane().getComponent(6)).addActionListener(listener);
     }
 }

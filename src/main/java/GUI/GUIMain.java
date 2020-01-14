@@ -65,11 +65,12 @@ public class GUIMain extends JFrame {
     }
 
     public void addDialogButtonListener(ActionListener actionListener) {
-        ((JButton)dialogFrame.getComponent(5)).addActionListener(actionListener);
+        dialogFrame.setButtonActionListener(actionListener);
     }
 
     public void update () {
         this.componentMap.get("People").validate();
+
     }
 
     public JComponent getComponent (String name) {

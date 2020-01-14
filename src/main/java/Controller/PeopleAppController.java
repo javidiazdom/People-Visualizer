@@ -23,6 +23,7 @@ public class PeopleAppController {
         gui.addSearchListener(new MyDocumentListener(this));
         gui.addDialogButtonListener(actionEvent -> {
             this.addPerson(gui.getNewPersonDialog().getPersonData());
+            gui.getNewPersonDialog().setVisible(false);
         });
         gui.setPeople(db.getWorker().getPeople());
     }
@@ -33,5 +34,7 @@ public class PeopleAppController {
     }
     private void addPerson (String[] personData) {
         db.getWorker().savePerson(new Person(personData[0], personData[1], Integer.parseInt(personData[2])));
+        gui.setPeople(db.getWorker().getPeople());
+        gui.update();
     }
 }
