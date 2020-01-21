@@ -20,7 +20,7 @@ public class MongoDbWorker implements DbWorker {
 
     public List<Person> getPeople () {
         List<Person> result = new LinkedList<>();
-        MongoDatabase db = connection.getClient().getDatabase("peopleApp");
+        MongoDatabase db = connection.getClient().getDatabase("testdb");
         MongoCollection<Document> collection = db.getCollection("people");
         for (Document document : collection.find()) {
             result.add(new Person(document.getString("firstname"),document.getString("lastname"),document.getInteger("age")));
