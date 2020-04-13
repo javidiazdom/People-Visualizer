@@ -1,4 +1,4 @@
-# Kata 6 IS2
+# People Visualizer
 
 Este proyecto consiste en una simple aplicación que muestra una lista de personas y una breve información sobre ellas. La información de las personas
 es almacenada en una base de datos MongoDb, hosteada en una máquina virtual utilizando el servicio de virtualización docker. La comunicación entre 
